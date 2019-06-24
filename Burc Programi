@@ -1,0 +1,46 @@
+gun=input("Dogum Tarihinizin Gun Kismini Rakam Olarak Giriniz\t: ")
+ay=input("Dogum Tarihiniz Yilin Kacinci Ayidir?\t\t\t: ")
+
+if not gun or not ay:
+    print("Gun ve Ay Kismi Bos Gecilemez")
+
+elif int(ay)==1 and int(gun)>=22 or int(ay)==2 and int(gun) <=19:
+   print("Burcunuz : Kova ")
+
+elif int(ay)==2 and int(gun)>=20 or int(ay)==3 and int(gun)<=20:
+   print("Burcunuz : Balik ")
+
+elif int(ay)==3 and int(gun)>=21 or int(ay)==4 and int(gun)<=20:
+   print("Burcunuz : Koc ")
+
+elif int(ay)==4 and int(gun)>=21 or int(ay)==5 and int(gun)<=21:
+   print("Burcunuz : Boğa ")
+
+elif int(ay)==5 and int(gun)>=22 or int(ay)==6 and int(gun)<=22:
+   print("Burcunuz : İkizler  ")
+
+elif int(ay)==6 and int(gun)>=23 or int(ay)==7 and int(gun)<=22:
+   print("Burcunuz : Yengeç ")
+
+elif int(ay)==7 and int(gun)>=23 or int(ay)==8 and int(gun)<=22:
+   print("Burcunuz : Aslan ")
+
+elif int(ay)==8 and int(gun)>=23 or int(ay)==9 and int(gun)<=22:
+   print("Burcunuz : Başak ")
+
+elif int(ay)==9 and int(gun)>=23 or int(ay)==10 and int(gun)<=22:
+   print("Burcunuz : Terazi ")
+
+elif int(ay)==10 and int(gun)>=23 or int(ay)==11 and int(gun)<=21:
+   print("Burcunuz : Akrep ")
+
+elif int(ay)==11 and int(gun)>=22 or int(ay)==12 and int(gun)<=21:
+   print("Burcunuz : Yay ")
+
+elif int(ay)==12 and int(gun)>=22 or int(ay)==1 and int(gun)<=21:
+   print("Burcunuz : Oğlak ")
+
+
+else:
+    print("Yolunda gitmeyen birseyler var! Tekrar deneyiniz")
+
