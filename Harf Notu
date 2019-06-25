@@ -1,0 +1,36 @@
+vize1= int(input("Lutfen vize1 notunuzu giriniz ! \t : "))
+vize2= int(input("Lutfen vize2 notunuzu giriniz ! \t : "))
+final= int(input("Lutfen final notunuzu giriniz ! \t : "))
+
+
+toplam_not=int((vize1*0.30)+(vize2*0.30)+(final*0.40))
+
+print("Toplam Notunuz\t\t\t\t : ", toplam_not,"\n", sep="")
+
+
+if toplam_not >=90:
+    print("Not HArfiniz\t\t\t\t : AA ")
+
+elif 90 >toplam_not >=85:
+    print("Not HArfiniz\t\t\t\t : BA ")
+
+elif 85 >toplam_not >=80:
+    print("Not HArfiniz\t\t\t\t : BB ")
+
+elif 80 >toplam_not >=75:
+    print("Not HArfiniz\t\t\t\t : CB ")
+
+elif 75 >toplam_not >=70:
+    print("Not HArfiniz\t\t\t\t : CC ")
+
+elif 70 >toplam_not >=65:
+    print("Not HArfiniz\t\t\t\t : DC ")
+
+elif 65 >toplam_not >=60:
+    print("Not HArfiniz\t\t\t\t : DD ")
+
+elif 60 >toplam_not >=55:
+    print("Not HArfiniz\t\t\t\t : FD ")
+
+elif 55 >toplam_not >=0:
+    print("Not HArfiniz\t\t\t\t : FF ")
