@@ -1,0 +1,45 @@
+username = input("3-18 karakter arasinda rakam kullanmadan bir username olusturunuz!\t:")
+parola = input("En az 6 ve en fazla 12 karakter arasinda parolanizi olusturunuz!\t:")
+
+
+if  username=="" or parola=="":
+    print("username yada parola bos gecilemez")
+
+elif "1" in username:
+    print("Kullanici adi rakam iceremez")
+
+elif "2" in username:
+    print("Kullanici adi rakam iceremez")
+
+elif "3" in username:
+    print("Kullanici adi rakam iceremez")
+
+elif "4" in username:
+    print("Kullanici adi rakam iceremez")
+
+elif "5" in username:
+    print("Kullanici adi rakam iceremez")
+
+elif "6" in username:
+    print("Kullanici adi rakam iceremez")
+
+elif "7" in username:
+    print("Kullanici adi rakam iceremez")
+
+elif "8" in username:
+    print("Kullanici adi rakam iceremez")
+
+elif "9" in username:
+    print("Kullanici adi rakam iceremez")
+    
+elif "0" in username:
+    print("Kullanici adi rakam iceremez")
+    
+elif len(parola)<6 or len(parola)>12:
+    print("PArolayi 6-12 karakter araliginda olacak sekilde tekrar deneyiniz")
+
+Dosya = open("PArola_KArakter_Kontrolu", "w")
+
+print("USername\t:",username,"\n","parola\t\t:",parola,sep="", file=Dosya)
+
+Dosya.close()
