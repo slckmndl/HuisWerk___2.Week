@@ -1,0 +1,43 @@
+sayi= "3"
+
+print(13*"\u2605","\n"
+      "KELIME TAHMIN OYUNU","\n", 
+      13*"\u2605","\n", sep="")
+
+
+
+tahmin = input("Lutfen 1 ile 10 arasinda tutulan sayiyi tahmmin edip rakam ile giriniz")
+
+
+if not tahmin:
+    print("Bos Gecilemez ! Lutfen 1 ile 10 arasinda tutulan sayiyi tahmmin edip rakam ile giriniz")
+
+elif sayi==tahmin:
+    print("Tebrikler  Kazandiniz ! ", 3*"\u2605")
+    
+elif sayi!=tahmin:
+    print("Bilemediniz! 2.Denemenizi Lutfen Rakam olacak sekilde 1 ile 10 arasi bir sayi girerek tekrar deneyiniz !")
+
+elif sayi==tahmin:
+    print("Tebrikler  Kazandiniz ! ", 3*"\u2605")
+
+elif sayi!=tahmin:
+    print("Bilemediniz! 3.Denemenizi Lutfen Rakam olacak sekilde 1 ile 10 arasi bir sayi girerek tekrar deneyiniz !")
+
+elif sayi==tahmin:
+    print("Tebrikler  Kazandiniz ! ", 2*"\u2605")
+
+elif sayi!=tahmin:
+    print("Bilemediniz! 4.Denemenizi Lutfen Rakam olacak sekilde 1 ile 10 arasi bir sayi girerek tekrar deneyiniz !")
+
+elif sayi==tahmin:
+    print("Tebrikler  Kazandiniz ! ", 2*"\u2605")
+
+elif sayi!=tahmin:
+    print("Bilemediniz! 5.Denemenizi Lutfen Rakam olacak sekilde 1 ile 10 arasi bir sayi girerek tekrar deneyiniz !")
+
+elif sayi==tahmin:
+    print("Tebrikler  Kazandiniz ! ", "\u2605")
+
+elif sayi!=tahmin:
+    print("Bilemediniz! Deneme Hakkiniz Sonra Ermistir !")
