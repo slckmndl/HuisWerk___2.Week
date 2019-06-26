@@ -1,4 +1,4 @@
-username = input("3-18 karakter arasinda rakam kullanmadan bir username olusturunuz!\t:")
+ausername = input("3-18 karakter arasinda rakam kullanmadan bir username olusturunuz!\t:")
 parola = input("En az 6 ve en fazla 12 karakter arasinda parolanizi olusturunuz!\t:")
 
 
