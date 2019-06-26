@@ -1,0 +1,15 @@
+donusum=float(input("""Km den Mil e donusturmek icin 1 rakamini giriniz
+Mil den Km ye donusturmek icin 2 rakamini giriniz\t: """))
+
+
+if donusum==1:
+    a=float(input("Donusturmek istediginiz km yi giriniz\t: "))
+    print("Girdiginiz Degerin Mil KArsiligi : ", a*1.609344)
+
+
+    
+
+elif donusum==2:
+    b=float(input("Donusturmek istediginiz mil i giriniz\t: "))
+    print("Girdiginiz Degerin Km KArsiligi : ", b*0.621371192)
+
