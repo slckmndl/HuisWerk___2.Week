@@ -1,0 +1,23 @@
+hesap=1000
+
+islem=int(input("""Yapmak Istediginiz Islemi belirtiniz ! \n
+1- Bakiye Kontrolu
+2- Para Yatirma
+3- Para Cekme \n
+Secenek : """))
+
+
+if islem==1:
+    print("Hesabinizda Toplam : ", hesap, "€ Bulunmaktadir.")
+
+elif islem==2:
+    a=float(input("Yatirilacak Tutari Giriniz 'Or; 2500 :  "))
+    print("Lutfen Paranizi HAzneye Yerlestiriniz...")
+    print("Guncellenen Bakiye Tutariniz : ", int(a+hesap), "€ dur. " )
+
+elif islem==3:
+    b=float(input("Cekilecek Tutari Giriniz 'Or; 2500 :  "))
+    if b<=1000:
+        print("Lutfen Bekleyiniz Isleminiz Yapiliyor ! ", "Kalan BAkiye Tutariniz : ", int(1000-b), "€ dur.")
+    elif b>1000:
+        print("Uzgunuz Mevcut Bakiyenizden fazla tutar girdiniz. Cekebileceginiz maksimum tutar",hesap,"€ dur.! ")
